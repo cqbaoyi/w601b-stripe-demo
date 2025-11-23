@@ -1,0 +1,23 @@
+# Python/Flask/Stripe Development Rules
+
+## Code Style
+- Use Python 3 conventions and type hints where appropriate
+- Follow PEP 8 style guidelines
+- Use meaningful variable and function names
+
+## Flask Best Practices
+- Use environment variables for configuration (via .env file)
+- Handle errors appropriately with proper HTTP status codes
+- Keep routes focused and minimal
+
+## Stripe API
+- Always use environment variables for API keys (never hardcode)
+- Handle Stripe exceptions appropriately
+- Use webhook signature verification for payment notifications
+- Test with Stripe test mode keys
+
+## General
+- Keep code simple and readable for a proof of concept
+- Document API endpoints with clear comments
+- Use python-dotenv to load environment variables from .env file
+
